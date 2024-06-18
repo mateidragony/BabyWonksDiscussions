@@ -96,13 +96,51 @@ of a procedure that may contain a formal parameter of an enclosing procedure. Th
 The `reversepair` limitation is interesting. I need to look back and see if they give an explanation of
 why lambdas can't just always be treated like the lets.
 
-
+Y combinator is very pogchamp!
 
 ## Section 3
 Doing examples with a simple language, exp.
 
+Why do types have to be directed?
+Subtypes I guess?
+
 ### 3.2
-This is just our interpreter
+This is just our interpreter, but also doing some type checking it looks like.
+I also don't get why we have to do the $v | B_0$ things to convert to `true` or
+`false`. I'm a bit confused by the distinction, esp. because the function D->V
+is an injection.
 
+### 3.4 Types and their semantics
+Another question I have is what the turnstyle is doing for us?
 
+The last example is wrong because it doesn't satisfy (ii) above.
 
+https://stackoverflow.com/questions/12532552/what-part-of-hindley-milner-do-you-not-understand
+
+These 2 propositions feel almost like gradual typing. Especially 1.
+If a value is of some type, then it also counts as being of a type 
+that is more specific than it. We can always make types more specific.
+
+### 3.5 Type assignments
+Type environment 🙌 🙌 🙌
+
+Prefixed expressions - we're just listing out things in heirarchy.
+We then use the pe to assign types.
+
+My mind is glazing over, I should probably come back to this.
+(Start at page 361)
+
+Semantic soundness theorem is defiinitely cool, and I would like to understand.
+
+## Part 4: A Well-Typing Algorithm and its Correctness
+Based on unification, one of the parts of 311 that I barely understand.
+
+## Part 5: Types in extended languages
+1. We can do pairs, lists, and disjoint sums?
+2. Assignments - Side effects make this hard to prove soundness. Cool!
+3. Defining types at runtime
+4. Multiple types for a procedure (but still not full poly) and coercions.
+
+## Part 6: Conclusion
+This was a good time, I'm glad that we read it. Soundness theorems go crazy
+(i still haven't looked at them 💀)
