@@ -127,10 +127,53 @@ Type environment 🙌 🙌 🙌
 Prefixed expressions - we're just listing out things in heirarchy.
 We then use the pe to assign types.
 
-My mind is glazing over, I should probably come back to this.
-(Start at page 361)
+A sub-pe is just a sub expression prefixed with the variable bindings
+that enclose it.
 
-Semantic soundness theorem is defiinitely cool, and I would like to understand.
+A typing of a pe is an assignment of a type to each element of p,
+and to each thing in e, so that the same type is assigned to
+let x and e' in the expression `let x = e' in e`.
+(Does not have to be a well typing yet)
+
+`lambda y | (let f = (lambda (x) (xy)) in (fy))`
+
+Typings are denoted with bars over things.
+
+A typing is standard if for every typed sub-pe, the generic
+type variables of each `let x_a` of the prefix occur nowhere
+else in the pe `p' | d'`.
+
+Well-typed:
+- `p | x_t` is wt <=> standard and the type for the symbol is defined.
+- `p | (e_a e_b)_t` is wt <=> `p|e` and `p|e'` are well typed, and `a = b->t`
+- `p | (if e_a then e_b else e_b')_t` is wt <=> sub exp are all wt, `a=t_0` and `b=t`
+
+I could keep going but this is just the stuff in our type checker.
+
+
+Non Recursive notion of wt:
+1. It is standard
+2. For every (bound) occurrence `x_a` the corr. binding occurence has the same type
+3. The conditions hold for all sub expressions (obvious things)
+
+Talks about let polymorph again? 
+`let I = (lambda (x) x) in ...` - We want `(Ie)` to have the same type as `e`
+*but* 
+`let I = (lambda (x) (let y = x in y)) in ...` - 
+
+### 3.6 Substitutions
+Map from type variables to types.
+
+Prop 4: If $S$ invokes no generic variables of a wt, S(p | d) is
+also well typed.
+
+### 3.7 Well typed expressions do not go wrong
+Relation bewteen semantic environments nad type environments.
+env respects p  iff whenever `* x_p` is active if `p`,`env(x) : p`.
+
+Semantic Soundess: If n respects `p`, and `p | d_T` is wt,
+then evaluating the expression works.
+
 
 ## Part 4: A Well-Typing Algorithm and its Correctness
 Based on unification, one of the parts of 311 that I barely understand.
