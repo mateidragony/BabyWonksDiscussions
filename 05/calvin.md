@@ -7,3 +7,4 @@
 - Notation try not to be impossible to understand, impossible challenge
   - The deltas denote an input type `t` and output type `w`
   - Example the type of $\Lambda t . \lambda x \varepsilon t . x$ is $\Delta t. t \rightarrow t$, because when we do $(\Lambda t . \lambda x \varepsilon t . x)[\text{Int}]$ we get an expression of type $\text{Int} \rightarrow \text{Int}$ for example.
+- 
