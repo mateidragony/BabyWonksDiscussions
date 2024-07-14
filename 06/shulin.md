@@ -1,4 +1,4 @@
-# CONS should not evaluate this arguments
+# CONS should not evaluate it's arguments
 
 I know one of the authors (friemdan) and what the cons function is, and I even understand lazy/call by need so I don't think that this paper will be REALLY bad, however given how the other papers have gone I'm probably wrong and I am fully prepared to not understand anything
 
