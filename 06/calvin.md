@@ -1,0 +1,16 @@
+# `cons` Should Not Evaluate its Arguments
+- Basically just call-by-need
+- Friedman-core
+- Landin mentioned jfc. Streams are hype though
+- Try not to mention ALGOL 60 impossible
+- "Ease the interface between recursive and iterative programmers"
+  - Suspending the evaluation makes it work more like a loop, where each step is evaluted only when needed.
+  - As they say at the end, makes evaluation top-down, instead of the typical bottom-up
+- mfw we did this as a homework assignment in 311
+- I can understand a proof, lfg
+- The point is that lazy can successfully handle more programs
+- WTF is a superinterpreter? I guess it's an actual implementation with lazy
+- `label` instead of `define` is foul
+- suicidal lmfao
+  - I guess this is just the thing where the suspension only coerces once
+- Suspending function args like a little dessert
