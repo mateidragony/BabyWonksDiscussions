@@ -16,5 +16,6 @@ We are following the papers in [this list](https://www.cis.upenn.edu/~bcpierce/c
 4. [G.D. Plotkin. Call-by-name, call-by-value and the λ-calculus.](https://www.sciencedirect.com/science/article/pii/0304397575900171?ref=pdf_download&fr=RR-2&rr=8986ddf829b3812d)
 5. [John C. Reynolds. Towards a theory of type structure.](https://www.cis.upenn.edu/~stevez/cis670/pdfs/Reynolds74.pdf)
 6. [Daniel P. Friedman. CONS Should Not Evaluate its Arguments.](https://legacy.cs.indiana.edu/ftp/techreports/TR44.pdf)
+7. [Robert Kowalski. Predicate logic as programming language.](https://www-public.imtbs-tsp.eu/~gibson/Teaching/Teaching-ReadingMaterial/Kowalski74.pdf)
 
 shulin waz here
