@@ -6,7 +6,7 @@ Matei, Shulin and Calvin's personal thoughts and shared thoughts about a select 
 
 Name and inspiration derived from the [PL Wonks](http://wonks.github.io/) group at Indiana University in Bloomington.
 
-We are following the papers in [this list](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) collected by Benjamin C. Pierce as well as other things that we find that are interesting.
+We were mainly following the papers in [this list](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml) collected by Benjamin C. Pierce, however now days we read anything that we find interesting.
 
 ## Papers read so far
 
