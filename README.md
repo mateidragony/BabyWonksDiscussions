@@ -26,6 +26,6 @@ Feel free to add anything you want here, add your name next to any that you find
 | Title | Description | Votes|
 |-------|-------------|-----------|
 | [Structured Asynchrony with Algebraic Effects](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/asynceffects-msr-tr-2017-21.pdf) | Demonstrates [algebraic effects](https://overreacted.io/algebraic-effects-for-the-rest-of-us/) as a generalization of asynchronous patterns | |
-| [Sequent Calculus as a Compiler Intermediate Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/sequent-calculus-icfp16.pdf) | Interesting compiler optimizations | Calvin |
+| [Sequent Calculus as a Compiler Intermediate Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/sequent-calculus-icfp16.pdf) | Interesting compiler optimizations | Calvin Shulin |
 | [Codata in Action](https://www.microsoft.com/en-us/research/wp-content/uploads/2020/01/CoDataInAction.pdf)  | A language with coinductive dataypes | Shulin |
 | [Type-Safe Multithreading in Cyclone](https://homes.cs.washington.edu/~djg/papers/cycthreads.pdf) | Type system that prevents data races. | |
