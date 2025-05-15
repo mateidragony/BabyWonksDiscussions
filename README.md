@@ -17,7 +17,7 @@ We are following the papers in [this list](https://www.cis.upenn.edu/~bcpierce/c
 5. [John C. Reynolds. Towards a theory of type structure.](https://www.cis.upenn.edu/~stevez/cis670/pdfs/Reynolds74.pdf)
 6. [Daniel P. Friedman. CONS Should Not Evaluate its Arguments.](https://legacy.cs.indiana.edu/ftp/techreports/TR44.pdf)
 7. [Robert Kowalski. Predicate logic as programming language.](https://www-public.imtbs-tsp.eu/~gibson/Teaching/Teaching-ReadingMaterial/Kowalski74.pdf)
-8. [Edsger W. Dijkstra. Go to statement considered harmful.](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf
+8. [Edsger W. Dijkstra. Go to statement considered harmful.](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
 
 ## Future papers list
 
