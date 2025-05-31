@@ -18,6 +18,7 @@ We were mainly following the papers in [this list](https://www.cis.upenn.edu/~bc
 6. [Daniel P. Friedman. CONS Should Not Evaluate its Arguments.](https://legacy.cs.indiana.edu/ftp/techreports/TR44.pdf)
 7. [Robert Kowalski. Predicate logic as programming language.](https://www-public.imtbs-tsp.eu/~gibson/Teaching/Teaching-ReadingMaterial/Kowalski74.pdf)
 8. [Edsger W. Dijkstra. Go to statement considered harmful.](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
+9. [Sequent Calculus as a Compiler Intermediate Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/sequent-calculus-icfp16.pdf)
 
 ## Future papers list
 
@@ -26,6 +27,5 @@ Feel free to add anything you want here, add your name next to any that you find
 | Title | Description | Votes|
 |-------|-------------|-----------|
 | [Structured Asynchrony with Algebraic Effects](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/asynceffects-msr-tr-2017-21.pdf) | Demonstrates [algebraic effects](https://overreacted.io/algebraic-effects-for-the-rest-of-us/) as a generalization of asynchronous patterns | |
-| [Sequent Calculus as a Compiler Intermediate Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/sequent-calculus-icfp16.pdf) | Interesting compiler optimizations | Calvin Shulin |
 | [Codata in Action](https://www.microsoft.com/en-us/research/wp-content/uploads/2020/01/CoDataInAction.pdf)  | A language with coinductive dataypes | Shulin |
 | [Type-Safe Multithreading in Cyclone](https://homes.cs.washington.edu/~djg/papers/cycthreads.pdf) | Type system that prevents data races. | |
