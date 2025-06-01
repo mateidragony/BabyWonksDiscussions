@@ -18,7 +18,8 @@ We were mainly following the papers in [this list](https://www.cis.upenn.edu/~bc
 6. [Daniel P. Friedman. CONS Should Not Evaluate its Arguments.](https://legacy.cs.indiana.edu/ftp/techreports/TR44.pdf)
 7. [Robert Kowalski. Predicate logic as programming language.](https://www-public.imtbs-tsp.eu/~gibson/Teaching/Teaching-ReadingMaterial/Kowalski74.pdf)
 8. [Edsger W. Dijkstra. Go to statement considered harmful.](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
-9. [Sequent Calculus as a Compiler Intermediate Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/sequent-calculus-icfp16.pdf)
+9. [ON COMPUTABLE NUMBERS, WITH AN APPLICATION TO THE ENTSCHEIDUNGSPROBLEM](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+10. [Sequent Calculus as a Compiler Intermediate Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/sequent-calculus-icfp16.pdf)
 
 ## Future papers list
 
