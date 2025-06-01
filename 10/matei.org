@@ -1,0 +1,88 @@
+#+TITLE: Sequent Calculus as a Compiler Intermediate Language
+#+AUTHOR: Matei Cloteaux
+
+* Introduction
+- This is so conversational
+- Appel?
+- OMG a Cinderella story!
+  
+* Sequent Core
+** Overview
+- Wtf is this syntax???
+- Please lord explain continuation binding
+- What is the capital lambda. Also constructor application???
+- Cut pair? Ayo do we have goto?
+- Oh shit they explain cut pair...
+- Oh is capital lambda polymorphic type?
+- Bro is that a fucking typo in the core drop? Isn't it supposed to be `reverse a ys`
+** The Language
+- jump!!!
+** Terms and Continuations
+- Ah yes weak head normal forms. That clears things up for me!
+- Lazy mentioned. Wait this is Haskell obviously lazy mentioned...
+- I don't think I understand $\mu$ abstractions...
+** Binding and Jumps
+- Ok maybe this makes sense
+** The scope of labels
+- Nvm this doesn't make sense...
+** Operational semantics
+- Dawg what in the fuck is Figure 2...
+- Ah Yes Figure 3. Wondeful!
+** Type System
+- Shulin please explain Figure 4
+- And the rest of this section
+  
+* Translating to and from Core
+** The definitional translation
+- Sure this seems fine
+** A more efficient translation
+- $\mu$ abstractions go brrr
+- Bro its literally just CPS.
+- Cool shrinking stuff
+** Translating back to Core
+- There and back again. OMG pl paper mentioned by moi???
+- Its not CPS
+** Round trips
+- Bro what is a round trip translation? Are you atcually able to undo
+- Why do we lose continuations?
+* From theory to practice
+** Sequent Core in GHC
+- Bro they did that shit in a few months?!
+- Simplify the simplifier 💀
+- They failed...
+- But wait maybe not!
+** Join points and case-of-case
+- Cool stuff
+** Losing join points
+- Woah Sequent Calculus rocks!
+* Contification
+- Oh ok maybe I understand why we might want continuations back.
+- Ok this makes sense. You want to contify all the time to be
+  able to catch those join points.
+** Analysis and transformation
+- Bottom up? DP? DP mentioned!!!
+- Ok just find all the contifiable terms and contify them. cool.
+- Big fan of all the performace tests they ran. This paper is
+  very thorough.
+** Discovering join points
+- Super cool. Exploit them join points girl.
+** Caveats
+- There's always gotta be caveats...
+- Fuck types man all my homies hate types
+* Related work
+** Relation to Sequent Calculi
+- This kinda went over my head ngl
+** CPS as an intermediate language
+- Sure. Sequent Calculus is kinda CPS but only in the good ways.
+  Its actually readble.
+** ANF as an intermediate language
+- Holy Amr normal form. My goat.
+- Fuck Kennedy. We love ANF.
+** Other representations
+- Eh who cares about imperative languages anyway.
+- SSA? I hardly know ey
+* Reflections on intermediate languages
+- Amr mentioned again! What a fucking goat.
+- Very empirical evidence for Figure 8. It's giving check + grade.
+
+  
